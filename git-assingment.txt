@@ -1,0 +1,49 @@
+1.
+git clone https://github.com/shaqeebwisdmlabs/first-contributions.git
+
+cd .\first-contributions\
+
+ git branch shaqeeb-contribution
+
+ git checkout shaqeeb-contribution
+
+git add contributions.md
+
+ git commit -m "Add Shaqeeb-Akhtar to Contributors list"
+
+ git push -u origin shaqeeb-contribution
+
+2.
+git clone https://github.com/shaqeebwisdmlabs/Engineering-Best-Practices.git
+
+ cd .\Engineering-Best-Practices\
+
+ git branch shaqeeb
+
+ git checkout shaqeeb
+
+ git status
+
+git add shaqeeb.txt
+
+ git commit -m "Git test on 250123"
+
+ git push origin -u shaqeeb
+
+3. 
+
+ git clone https://github.com/shaqeebwisdmlabs/shaqeeb-akhtar-assignment.git
+
+cd .\shaqeeb-akhtar-assignment\
+
+git checkout test250123
+
+git add -A
+
+ git commit -m "Commit for test"
+
+git push origin -u test250123
+
+ git reset 4fe0963
+
+git commit -m "done"
